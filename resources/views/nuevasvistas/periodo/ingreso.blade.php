@@ -18,17 +18,12 @@
           <select class="form-control tipoll">
             <?php
                 for ($i=0; $i < count($dato_pdyot); $i++) {
-                  //dd($dato_pdyot[$i]->PLAN);
                   echo "<option value=".$dato_pdyot[$i]->idplan.">".$dato_pdyot[$i]->PLAN."</option>\n";
                 }
              ?>
           </select>
         </div>
       </div>
-
-
-
-
       <?php
         $time=time();
         $date_inicio=date("Y-01-01",$time);
@@ -42,6 +37,7 @@
           </select>
         </div>
       </div> -->
+
     <div class="form-group">
       <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">PERIODO *</label>
       <div class="col-md-6 col-sm-6 col-xs-12">
